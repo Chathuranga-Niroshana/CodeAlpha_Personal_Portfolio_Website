@@ -3,6 +3,8 @@ import STM from "../../Assests/Project1/Screenshot (82).png";
 import LBMS from "../../Assests/Project1/Screenshot (83).png";
 import ECOM from "../../Assests/Project1/Screenshot (84).png";
 import TDL from "../../Assests/Project1/Screenshot (85).png";
+import ET from "../../Assests/Project1/Screenshot (104).png";
+import SMD from "../../Assests/Project1/Screenshot (103).png";
 
 const Project = () => {
   const projects = [
@@ -25,7 +27,7 @@ const Project = () => {
     {
       title: "E-Commerce Store",
       description:
-        "Project using MERN Stack for online shopping. Code uploaded to GitHub.",
+        "A Project using MERN Stack for online shopping webpage. Code uploaded to GitHub.",
       image: ECOM,
       githubLink:
         "https://github.com/Chathuranga-Niroshana/Ecommerce-Store-Web-App-",
@@ -35,6 +37,22 @@ const Project = () => {
       description: "Simple React JS Project. Code uploaded to GitHub.",
       image: TDL,
       githubLink: "https://github.com/Chathuranga-Niroshana/To-do-List",
+    },
+    {
+      title: "Express Tracker",
+      description:
+        "This was created using React JS to track the expenses.This can delete, add, edit the data.also this will store data in local storage. Code uploaded to GitHub.",
+      image: ET,
+      githubLink:
+        "https://github.com/Chathuranga-Niroshana/CodeAlpha_Expense_Tracker",
+    },
+    {
+      title: "Social Media Dashboard",
+      description:
+        "This is a Social Media Dashboard created using React Js.in this web site you can acces to varias platforms and look at your Instergram, Facebook pages.also can watch YouTube videos. Code uploaded to GitHub.",
+      image: SMD,
+      githubLink:
+        "https://github.com/Chathuranga-Niroshana/CodeAlpha_Social_Media_Dashboard",
     },
   ];
 

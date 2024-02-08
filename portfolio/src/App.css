@@ -8,6 +8,8 @@ section {
   align-items: center;
   justify-content: space-around;
   padding: 65px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 #home img {
@@ -73,6 +75,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background: transparent;
+  margin-bottom: 36px;
 }
 h2 {
   color: #2303a1;
@@ -82,7 +85,7 @@ h2 {
   line-height: 39px;
   width: 600px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 90px;
   font-size: 1.1rem;
   /* box-shadow: 1px 1px 40px; */
   border-radius: 10px;
@@ -110,7 +113,7 @@ h2 {
 }
 .project1 {
   width: 90%;
-  height: 550px;
+  height: 570px;
   box-shadow: 1px 1px 40px;
   margin-top: 50px;
   padding: 20px;
@@ -129,7 +132,12 @@ h2 {
   font-weight: 600;
 }
 .project1 img {
+  border-radius: 16px;
+  transition: 0.5s ease-in-out;
   width: 100%;
+}
+img:hover{
+  transform: scale(1.01);
 }
 .project1 button {
   padding: 10px 30px;
@@ -254,7 +262,7 @@ h2 {
 #contact h2 {
   margin-bottom: 30px;
 }
-.contact-info-container p{
+.contact-info-container p {
   color: #fff;
 }
 .contact-info-container a {
