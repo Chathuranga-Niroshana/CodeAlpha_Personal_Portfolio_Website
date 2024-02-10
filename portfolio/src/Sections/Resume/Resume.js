@@ -10,7 +10,7 @@ const Resume = () => {
         <img src={resumeImg} alt="resume" />
       </div>
       <a href={resume} download="J.M.Chathuranga Niroshana.pdf">
-        <button style={{ fontSize: "24px" }}>
+        <button>
           Download My CV <i className="fa fa-download"></i>
         </button>
       </a>

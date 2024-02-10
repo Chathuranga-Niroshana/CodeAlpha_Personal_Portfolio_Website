@@ -1,7 +1,7 @@
 // Home.jsx
 import React, { useState, useEffect } from "react";
 import profileImage from "./../../Assests/profile.jpg";
-import "./Home.css"; 
+import "./Home.css";
 
 const Home = () => {
   const [changingWord, setChangingWord] = useState("Frontend Development");
@@ -10,7 +10,7 @@ const Home = () => {
     const words = [
       "Frontend Development",
       "Backend Development",
-      "MERN Stack Development",
+      "MERN Development",
       "Fullstack Web Developer",
     ];
 
@@ -43,19 +43,19 @@ const Home = () => {
           <a href="http://www.linkedin.com/in/chathuranga-niroshana-651122252">
             <i
               className="fa fa-linkedin-square"
-              style={{ fontSize: "40px", color: "rgb(47, 4, 175)" }}
+              style={{ color: "rgb(47, 4, 175)" }}
             ></i>
           </a>
           <a href="https://github.com/Chathuranga-Niroshana">
             <i
               className="fa fa-github"
-              style={{ fontSize: "40px", color: "white" }}
+              style={{ color: "white" }}
             ></i>
           </a>
           <a href="mailto:niroshana.c.n.j@gmail.com">
             <i
               className="fa fa-envelope"
-              style={{ fontSize: "40px", color: "rgb(135, 9, 9)" }}
+              style={{ color: "rgb(135, 9, 9)" }}
             ></i>
           </a>
           <a
@@ -65,7 +65,7 @@ const Home = () => {
           >
             <i
               className="fa fa-whatsapp"
-              style={{ fontSize: "40px", color: "green" }}
+              style={{ color: "green" }}
             ></i>
           </a>
         </div>

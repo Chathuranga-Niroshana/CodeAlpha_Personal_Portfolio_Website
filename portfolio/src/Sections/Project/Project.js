@@ -68,7 +68,7 @@ const Project = () => {
             <br />
             <br />
             <a href={project.githubLink}>
-              <button style={{ fontSize: "24px" }}>
+              <button>
                 Go To Code <i className="fa fa-github"></i>
               </button>
             </a>

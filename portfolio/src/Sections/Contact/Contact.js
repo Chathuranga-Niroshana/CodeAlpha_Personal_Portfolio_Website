@@ -10,29 +10,26 @@ const Contact = () => {
         <p>CINEC Campus, Malabe,</p>
         <p>Sri Lanka.</p>
       </div>
-      <div className="contact-info-container">
-        <h2>Contact Information</h2>
-        <p>
-          <i className="fa fa-mobile"></i> +94757684501
-        </p>
-        <p>
-          <i className="fa fa-envelope"></i>
-          <a href="mailto:niroshana.c.n.j@gmail.com">
-            niroshana.c.n.j@gmail.com
-          </a>
-        </p>
-        <p>
-          <i className="fa fa-linkedin"></i>
-          <a href="http://www.linkedin.com/in/chathuranga-niroshana-651122252">
-            Chathuranga Niroshana
-          </a>
-        </p>
-        <p>
-          <i className="fa fa-github"></i>
-          <a href="https://github.com/Chathuranga-Niroshana">
-            Chathuranga-Niroshana
-          </a>
-        </p>
+      <div className="linkcontainer">
+        <a href="http://www.linkedin.com/in/chathuranga-niroshana-651122252">
+          <i
+            className="fa fa-linkedin-square"
+            style={{ color: "rgb(47, 4, 175)" }}
+          ></i>
+        </a>
+        <a href="https://github.com/Chathuranga-Niroshana">
+          <i className="fa fa-github" style={{ color: "white" }}></i>
+        </a>
+        <a href="mailto:niroshana.c.n.j@gmail.com">
+          <i className="fa fa-envelope" style={{ color: "rgb(135, 9, 9)" }}></i>
+        </a>
+        <a
+          href="https://wa.me/+94757684501"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-whatsapp" style={{ color: "green" }}></i>
+        </a>
       </div>
     </section>
   );

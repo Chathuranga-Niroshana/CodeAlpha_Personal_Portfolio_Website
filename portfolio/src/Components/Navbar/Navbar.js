@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import "../../App.css"
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="#about">About Me</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
